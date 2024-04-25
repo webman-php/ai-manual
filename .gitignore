@@ -1,0 +1,8 @@
+/.idea
+/.vscode
+webman
+*Thumbs.db*
+server/composer.lock
+server/vendor
+server/build
+script/translate/config.php

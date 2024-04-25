@@ -1,5 +1,5 @@
 # 添加图标菜单
-![module-invite.png](../../assets/img/module-invite.png)
+![module-invite.png](../img/module-invite.png)
 
 如图所示，左边每个图标代表一个功能模块，点击左边图标右边窗体会以iframe的方式加载图标对应的url内容。
 
@@ -42,18 +42,18 @@ return [
 ## 图标
 图标默认使用的是bootstrap的图标，地址为 https://icons.bootcss.com/ ，选择喜欢的图标点击后点击复制按钮粘贴到`light` `dark` `active`的字段上。
 
-![img.png](../../assets/img/bootstrap-icon.png)
+![img.png](../img/bootstrap-icon.png)
 
 ## 其它图标
 如果 https://icons.bootcss.com/ 没有你喜欢的图标，你也可以使用自己的图片代替，例如到 https://www.iconfont.cn/ 寻找下载png格式的图片，放到 `plugin/foo/public/img` 下，然后在`icon`字段中填写`<img>`标签。
 
-![img.png](../../assets/img/iconfont-download.png)
-![img.png](../../assets/img/iconfont-color.png)
+![img.png](../img/iconfont-download.png)
+![img.png](../img/iconfont-color.png)
 
 注意需要下载3个图片，颜色分别为light黑灰色#595c5f，dark灰色#8a9198，active蓝色#007bff。图标大小最小64px，太小会模糊。
 
 例如 `plugin\foo\public\img` 下载了三个图标如下
-![img.png](../../assets/img/menu-image.png)
+![img.png](../img/menu-image.png)
 
 `ai.menu.list` 配置如下
 ```php

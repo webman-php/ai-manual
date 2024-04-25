@@ -1,5 +1,5 @@
 # 添加功能模块
-![img.png](../../assets/img/invite-white.png)
+![img.png](../img/invite-white.png)
 
 接下来我们将介绍如何添加如图所示的邀请功能模块。
 
@@ -18,33 +18,33 @@
 ```
 
 ## 建表
-![module-invite.png](../../assets/img/create-table.png)
+![module-invite.png](../img/create-table.png)
 
-![img.png](../../assets/img/create-table-save.png)
+![img.png](../img/create-table-save.png)
 
-![img.png](../../assets/img/create-table-save2.png)
+![img.png](../img/create-table-save2.png)
 
 ## 一键菜单生成后台
 
 给新建的两个表分别生成菜单
 
 #### ai_inviteb表
-![img.png](../../assets/img/yijiancaidan1.png)
+![img.png](../img/yijiancaidan1.png)
 
-![img.png](../../assets/img/yijiancaidan2.png)
+![img.png](../img/yijiancaidan2.png)
 控制器 `/plugin/ai_invite/app/admin/controller/AiInviteController.php`  
 模型 `/plugin/ai_invite/app/model/AiInvite.php`
 
 #### ai_invite_rewards表
-![img.png](../../assets/img/yijiancaidan3.png)
+![img.png](../img/yijiancaidan3.png)
 
-![img.png](../../assets/img/yijiancaidan4.png)
+![img.png](../img/yijiancaidan4.png)
 控制器 `/plugin/ai_invite/app/admin/controller/AiInviteRewardController.php`
 模型 `/plugin/ai_invite/app/model/AiInviteReward.php`
 
 #### 生成结果
 刷新后能看到生成的菜单如下
-![img.png](../../assets/img/yijiancaidan-ok.png)
+![img.png](../img/yijiancaidan-ok.png)
 
 以上操作会生成两个模型`AiInvite` `AiInviteReward`，开发者可以在后续代码中直接使用。
 
@@ -372,10 +372,10 @@ class IndexController
 ```
 
 ## 最终效果类似如下
-![module-invite.png](../../assets/img/module-invite.png)
+![module-invite.png](../img/module-invite.png)
 
 ## install.sql
-如果你想发布插件给其他人使用，需要在插件目录下创建一个`install.sql`文件，这个文件会在插件安装时执行，用来初始化数据库表结构。
+如果你想发布插件给其他人使用，需要在插件目录下创建一个`install.sql`文件，里面的SQL会在插件安装或升级时执行，用来初始化数据库表结构及升级修改表结构。
 plugin/ai_invite/install.sql
 ```sql
 CREATE TABLE `ai_invite` (

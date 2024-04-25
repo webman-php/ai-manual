@@ -17,7 +17,7 @@ composer require -W webman/admin webman/openai
 ```
 
 4. 重启webman
-   `php start.php restart -d`
+   `php start.php restart -d` (windows系统按ctrl+c退出，再运行`widnows.bat`)
 
 5. 进入webman/admin安装向导
    访问 `http://127.0.0.1:8787/app/admin` 完成webman/admin的安装

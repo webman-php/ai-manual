@@ -2,15 +2,15 @@
 webman/ai是workerman官方开发的一套AI聊天程序，支持多种助手角色。
 可以用来聊天、语音对话、识别图片、专业作图、问问题、写代码、写文章、写周报、作诗、翻译等。**并且支持后台知识库，训练自己的模型**。
 
-## 测试地址
+## 体验地址
 https://bla.cn
 https://www.workerman.net/ai
 
 
 ## 界面截图
-![img.png](../assets/img/preview1.png)
+![img.png](img/preview1.png)
 
-![img.png](../assets/img/preview2.png)
+![img.png](img/preview2.png)
 
 ## 特色
 基于异步非阻塞机制，海量用户访问系统能够始终保持流畅运行。(传统php-fpm架构人多就会明显卡顿)

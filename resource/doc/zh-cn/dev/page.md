@@ -4,7 +4,7 @@
 
 ## 中间件更改页面内容
 假设我们需要给登录页面添加一个邀请码输入框
-![img.png](../../assets/img/login-invite-code.png)
+![img.png](../img/login-invite-code.png)
 
 #### 创建插件foo
 如果已经创建则忽略

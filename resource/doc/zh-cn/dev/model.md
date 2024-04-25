@@ -68,7 +68,7 @@ class MoonShoot extends Base
 ## 管理后台添加模型
 
 进入管理和后台AI模型管理页面，添加模型
-![img.png](../../assets/img/ai-model-setting.png)
+![img.png](../img/ai-model-setting.png)
 
 * 名称：`moonshoot`  
 * 类型：`moonshoot`  
@@ -111,10 +111,10 @@ moonshot-v1-128k
 ## 设置AI模型列表
 现在webman ai内部已经拥有处理moonshoot的模型的能力了，接下来需要将moonshoot模型暴露出来，让用户可以选择使用。
 如图模型列表里添加对外暴露的模型及别名，这里只暴露了`moonshot-v1-8k`并起了别名`kimi`，你也可以将 `moonshot-v1-32k` `moonshot-v1-128k` 都暴露出来，别名例如`kimi-32k` `kimi-128k`。
-![img.png](../../assets/img/ai-setting-model-list.png)
+![img.png](../img/ai-setting-model-list.png)
 
 ## 添加AI角色
 在AI角色管理页面添加一个角色，选择刚刚暴露的`kimi`模型，保存，这样用户就能看到kimi角色了。
-![ai-role-setting.png](../../assets/img/ai-role-setting.png)
+![ai-role-setting.png](../img/ai-role-setting.png)
 
-![index-kimi.png](../../assets/img/index-kimi.png)
+![index-kimi.png](../img/index-kimi.png)

@@ -9,6 +9,7 @@
   - [midjourney设置](install/midjourney.md)
   - [支付设置](install/payment.md)
   - [训练设置](install/embedding.md)
+  - [语音识别](install/voice.md)
 
 - 二次开发
 

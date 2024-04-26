@@ -53,19 +53,20 @@ php start.php restart -d
 
 9. 伪静态配置
    ![](../img/bt/proxy-save.png)
-```
-proxy_buffering off;
-location ^~ / {
-  proxy_set_header X-Real-IP $remote_addr;
-  proxy_set_header Host $host;
-  proxy_set_header X-Forwarded-Proto $scheme;
-  proxy_http_version 1.1;
-  proxy_set_header Connection "";
-  if (!-f $request_filename){
-      proxy_pass http://127.0.0.1:8787;
-  }
-}
-```
+
+    ```
+    proxy_buffering off;
+    location ^~ / {
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_set_header Host $host;
+      proxy_set_header X-Forwarded-Proto $scheme;
+      proxy_http_version 1.1;
+      proxy_set_header Connection "";
+      if (!-f $request_filename){
+          proxy_pass http://127.0.0.1:8787;
+      }
+    }
+    ```
 
 10. 创建数据库
 

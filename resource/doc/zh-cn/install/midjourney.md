@@ -1,5 +1,8 @@
 # Midjourney设置
 
+> **注意**
+> webman ai基础版不支持绘图功能
+
 **使用前提**
 注册并订阅 MidJourney，**一定要创建自己的服务器和频道**，获取guild-id、channel-id、token、useragent [参考文档](https://www.workerman.net/a/1654)
 

@@ -45,8 +45,8 @@ php start.php restart -d
 7. 设置站点
    ![](../img/bt/create-site.png)
 
-> **注意**
-> 站点目录选择 /www/wwwroot/webman/public
+  > **注意**
+  > 站点目录选择 /www/wwwroot/webman/public
 
 8. 配置站点
    ![](../img/bt/proxy.png)
@@ -69,20 +69,20 @@ location ^~ / {
 
 10. 创建数据库
 
-![](../img/bt/create-database.png)
-记住数据库、用户名、密码，下一步要用到
+  ![](../img/bt/create-database.png)
+  记住数据库、用户名、密码，下一步要用到
 
 11. 进入webman/admin安装向导
 
-访问 `http://域名.com/app/admin` 填写数据库、用户名、密码，完成webman/admin的安装
-![](../img/bt/install-admin.png)
+  访问 `http://域名.com/app/admin` 填写数据库、用户名、密码，完成webman/admin的安装
+  ![](../img/bt/install-admin.png)
 
 12. 进入webman/admin后台安装`用户模块`和`webman AI助手`
 
-![截图](https://www.workerman.net/upload/img/20230823/2364e56e9f955f.png)
+  ![截图](https://www.workerman.net/upload/img/20230823/2364e56e9f955f.png)
 
-> **注意**
-> 基础版用户请安装 webman AI助手基础版
+  > **注意**
+  > 基础版用户请安装 webman AI助手基础版
 
 13. 新增apikey
 

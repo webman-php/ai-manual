@@ -5,7 +5,8 @@
   
 - 安装
   
-  - [基础安装](install/base.md)
+  - [命令行安装](install/base.md)
+  - [宝塔安装](install/bt.md)
   - [midjourney设置](install/midjourney.md)
   - [支付设置](install/payment.md)
   - [训练设置](install/embedding.md)

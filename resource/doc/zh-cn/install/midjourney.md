@@ -37,6 +37,8 @@ composer require webman/midjourney
 设置完毕后一定要执行 `php start.php restart -d` 重启(reload不生效)
 
 > **注意**
-> webman/midjourney不支持 remix 模式，discord里不要开启 remix模式
+> webman/midjourney不支持 remix 模式，discord里不要开启 `remix mode` 模式
+
+![](../img/remix.png)
 
 

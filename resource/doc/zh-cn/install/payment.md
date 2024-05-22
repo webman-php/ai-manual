@@ -5,7 +5,7 @@
 ### 配置方法
 进入webman目录安装 `yansongda/pay`
 PHP7.4用户执行命令
-`composer require -W yansongda/pay ~3.1.0`
+`composer require -W yansongda/pay ~3.3.0`
 
 PHP8用户执行命令
 `composer require -W yansongda/pay ~3.5.0`

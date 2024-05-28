@@ -3,6 +3,12 @@
 > **注意**
 > webman ai基础版不支持绘图功能
 
+# 使用Midjourney的两种方案
+方案一：自己注册并订阅MidJourney，需要开发者有能力登录discord并且有信用卡
+方案二：使用MidJourney代理商的接口，推荐 https://dev.boxai.cc ，联系QQ 946599101
+
+## 自己订阅MidJourney教程如下
+
 **使用前提**
 注册并订阅 MidJourney，**一定要创建自己的服务器和频道**，获取guild-id、channel-id、token、useragent [参考文档](https://www.workerman.net/a/1654)
 

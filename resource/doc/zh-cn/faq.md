@@ -5,6 +5,7 @@
 
 ### 如何获取ApiKey
 Gpt的ApiKey[点击此处购买](https://api.v3.cm/register?aff=oLWl)。国内模型的ApiKey到对应平台注册即可。
+[文心一言](https://qianfan.cloud.baidu.com/) [通义千问](https://dashscope.console.aliyun.com/) [Moonshot](https://platform.moonshot.cn/) [清华智谱](https://open.bigmodel.cn/) [讯飞星火](https://xinghuo.xfyun.cn/sparkapi) [Google Gemini](https://aistudio.google.com/app/apikey)
 
 ### 如何设置不需要会员就可以使用
 进入管理后台->AI模型页面，找到你想要免费开放的模型，点击编辑按钮，在`每日赠送`一栏里填写每个用户每天可以免费使用的数量即可

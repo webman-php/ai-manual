@@ -1,10 +1,10 @@
 # 常见问题
 
 ### 国内服务器可以部署么？
-可以，不需要额外设置，可以直接部署运行即可
+可以国内部署，不需要额外设置。
 
 ### 如何获取ApiKey
-GPT的ApiKey[点击此处购买](https://api.v3.cm/register?aff=oLWl)。
+如果你没有渠道购买GPT的ApiKey[可以点击此处购买](https://api.v3.cm/register?aff=oLWl) (价格优惠有售后并且比较稳定)，当然也可以使用其它中转平台的apikey或者直接使用openai的apikey。
 国内模型的ApiKey到对应平台注册即可,
 [文心一言](https://qianfan.cloud.baidu.com/), [通义千问](https://dashscope.console.aliyun.com/), [Moonshot](https://platform.moonshot.cn/), [清华智谱](https://open.bigmodel.cn/), [讯飞星火](https://xinghuo.xfyun.cn/sparkapi), [Google Gemini](https://aistudio.google.com/app/apikey)
 

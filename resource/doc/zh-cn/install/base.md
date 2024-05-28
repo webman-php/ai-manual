@@ -34,7 +34,7 @@ composer require -W webman/admin webman/openai
    ![截图](https://www.workerman.net/upload/img/20240318/1865f7a85153b3.png)
 
    > **提示**
-   > 如果你没有ApiKey可以在 **[V3](https://api.v3.cm/register?aff=oLWl)** 购买，服务稳定，价格优惠，webman AI官方一直在用
+   > 如果你没有ApiKey可以 **[点击此处购买](https://api.v3.cm/register?aff=oLWl)** 
 
 9. 至此webman/ai助手安装完毕
    plus版本访问地址 `http://127.0.0.1:8787/app/ai`  

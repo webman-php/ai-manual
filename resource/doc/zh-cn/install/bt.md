@@ -90,7 +90,7 @@ php start.php restart -d
    ![截图](https://www.workerman.net/upload/img/20240318/1865f7a85153b3.png)
 
    > **提示**
-   > 如果你没有ApiKey可以 **[点击此处购买](https://api.v3.cm/register?aff=oLWl)** 
+   > 如果你没有渠道购买GPT的ApiKey[可以点击此处购买](https://api.v3.cm/register?aff=oLWl) (价格优惠有售后并且比较稳定)，当然也可以使用其它中转平台的apikey或者直接使用openai的apikey。
 
 14. 至此webman/ai助手基本安装完毕
 

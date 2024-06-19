@@ -7,6 +7,7 @@
 方案一：自己注册并订阅MidJourney，需要开发者有能力登录discord并且有信用卡  
 方案二：使用MidJourney代理商的接口，推荐 [https://dev.boxai.cc](https://dev.boxai.cc/share/17) ，联系QQ 946599101  
 
+以下是方案一的教程，方案二可以忽略
 
 ## 方案一：自己订阅MidJourney教程如下
 

@@ -49,9 +49,9 @@ composer require webman/midjourney
 
 
 ## 方案二
-![](../img/aibox-1.png)
+![](../img/boxai-1.png)
 
-![](../img/aibox-2.png)
+![](../img/boxai-2.png)
 
 如图所示，将api地址和密钥填写到 webman-admin后台->AI模型->Midjourney 里，并保存
 

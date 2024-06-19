@@ -7,8 +7,6 @@
 方案一：自己注册并订阅MidJourney，需要开发者有能力登录discord并且有信用卡  
 方案二：使用MidJourney代理商的接口，推荐 [https://dev.boxai.cc](https://dev.boxai.cc/share/17) ，联系QQ 946599101  
 
-以下是方案一的教程，方案二可以忽略
-
 ## 方案一：自己订阅MidJourney教程如下
 
 **使用前提**
@@ -48,5 +46,15 @@ composer require webman/midjourney
 > webman/midjourney不支持 remix 模式，discord里不要开启 `remix mode` 模式 (默认不开启，不用做任何处理)
 
 ![](../img/remix.png)
+
+
+## 方案二
+![](../img/aibox-1.png)
+
+![](../img/aibox-2.png)
+
+如图所示，将api地址和密钥填写到 webman-admin后台->AI模型->Midjourney 里，并保存
+
+
 
 

@@ -7,7 +7,9 @@
 方案一：自己注册并订阅MidJourney，需要开发者有能力登录discord并且有信用卡  
 方案二：使用MidJourney代理商的接口，推荐 [https://dev.boxai.cc](https://dev.boxai.cc/share/17) ，联系QQ 946599101  
 
-## 方案一：自己订阅MidJourney教程如下
+两种方案选择一个即可
+
+## 方案一：自己订阅MidJourney教程
 
 **使用前提**
 注册并订阅 MidJourney，**一定要创建自己的服务器和频道**，获取guild-id、channel-id、token、useragent [参考文档](https://www.workerman.net/a/1654)
@@ -48,7 +50,7 @@ composer require webman/midjourney
 ![](../img/remix.png)
 
 
-## 方案二
+## 方案二：MidJourney代理商的接口
 ![](../img/boxai-1.png)
 
 ![](../img/boxai-2.png)

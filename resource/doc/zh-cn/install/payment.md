@@ -10,7 +10,7 @@ PHP7.4用户执行命令
 PHP8用户执行命令
 `composer require -W yansongda/pay ~3.5.0`
 
-新建 `plugin/ai/config/payment.php`，内容参考`payment.example.php`
+新建 `plugin/ai/config/payment.php`，内容参考`plugin/ai/config/payment.example.php`
 
 重启webman `php start.php restart -d`
 

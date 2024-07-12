@@ -7,7 +7,7 @@ webman ai支持常见的大模型包括openai的 gpt-3.5 gpt-4、百度文心一
 
 ## 管理后台添加模型
 
-假设我们要添加moonshoot模型，进入管理和后台AI模型管理页面，添加模型
+假设我们要添加moonshoot模型，进入管理和后台AI模型管理页面，点击新增模型按钮
 ![img.png](../img/ai-model-setting-new.png)
 
 * 名称：`moonshoot`  

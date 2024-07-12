@@ -5,74 +5,14 @@ webman ai支持常见的大模型包括openai的 gpt-3.5 gpt-4、百度文心一
 
 如果需要接入其它模型，请参考以下文档。
 
-> **提示**
-> 根据二开必读的说明，后续示例二开代码将放到新建应用插件目录，你也可以选择放到本地主项目目录，代码结构是一样的，只不过命名空间不同，后面不再赘述。
-
-# 添加 moonshot kimi模型
-文档 https://platform.moonshot.cn/docs/api-reference
-
-## 创建应用插件
-
-**创建插件**
-执行命令
-```shell
-php webman app-plugin:create foo
-```
-
-## 创建所需要的类
-
-**plugin/foo/app/handler/MoonShoot.php**
-```php
-<?php
-
-namespace plugin\foo\app\handler;
-
-use plugin\ai\app\handler\Base;
-use plugin\ai\app\handler\driver\Gpt3;
-
-class MoonShoot extends Base
-{
-    /**
-     * @var string 模型处理器名称
-     */
-    protected static $name = 'moonshoot';
-
-    /**
-     * @var string 模型类型
-     */
-    protected static $type = 'moonshoot';
-
-    /**
-     * @var string 处理器
-     */
-    protected $driverClass = Gpt3::class;
-
-    /**
-     * 对话
-     * @param $data
-     * @param $options
-     * @return void
-     */
-    public function completions($data, $options)
-    {
-        $this->driver = new $this->driverClass($this->getSettings());
-        $this->driver->completions($data, $options);
-    }
-
-}
-```
-
-> **提示**
-> 因为moonshoot模型的接口与gpt接口参数及返回是一致的，所以这里driver直接使用gpt3的处理器，如果与gpt接口不一致，需要自行实现driver类整理请求参数和返回数据，具体可以参考plugin/ai/app/handler/driver下的类。
-
 ## 管理后台添加模型
 
 进入管理和后台AI模型管理页面，添加模型
-![img.png](../img/ai-model-setting.png)
+![img.png](../img/ai-model-setting-new.png)
 
 * 名称：`moonshoot`  
 * 类型：`moonshoot`  
-* 处理器：`plugin\foo\app\handler\MoonShoot`  
+* 处理器：`plugin\ai\app\handler\Gpt`  
 * 支持的模型：
 ```
 moonshot-v1-8k
@@ -86,7 +26,8 @@ moonshot-v1-128k
     "api": {
         "name": "api地址",
         "type": "text",
-        "value": "https:\/\/api.moonshot.cn"
+        "value": "https:\/\/api.moonshot.cn",
+        "desc": "例如 https://api.openai.com"
     },
     "apikey": {
         "name": "ApiKey",
@@ -107,6 +48,9 @@ moonshot-v1-128k
 }
 ```
 保存
+
+> **注意**
+> 因为moonshoot的接口支持GPT格式，所以这里的处理器是`plugin\ai\app\handler\Gpt`，如果是其它模型，处理器可能不同。
 
 ## 设置AI模型列表
 现在webman ai内部已经拥有处理moonshoot的模型的能力了，接下来需要将moonshoot模型暴露出来，让用户可以选择使用。

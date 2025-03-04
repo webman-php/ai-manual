@@ -9,7 +9,13 @@ docker run --name redis-stack -v /home/data/redis:/data -p 6380:6379 -d redis/re
 ```
 
 ### 步骤二：给webman安装illuminate/redis组件
-webman根目录执行
+
+**webman-v2版本 webman根目录执行**
+```
+composer require -W webman/redis illuminate/events
+```
+
+**webman-v1版本 webman根目录执行**
 ```
 composer require -W illuminate/redis illuminate/events
 ```

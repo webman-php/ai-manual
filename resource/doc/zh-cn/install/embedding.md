@@ -3,7 +3,7 @@
 
 ### 步骤一：安装redis-stack服务端（注意普通redis-server服务端不支持，要用redis-stack才行）
 ```
-docker pull redis/redis-stack
+docker pull docker.1ms.run/redis/redis-stack
 mkdir /home/data/redis -p
 docker run --name redis-stack -v /home/data/redis:/data -p 6380:6379 -d redis/redis-stack
 ```

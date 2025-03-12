@@ -1,5 +1,5 @@
 # 训练模块部署步骤
-假设你已经安装了webnman/ai
+假设你已经安装了webman/ai
 
 ### 步骤一：安装redis-stack服务端（注意普通redis-server服务端不支持，要用redis-stack才行）
 ```
